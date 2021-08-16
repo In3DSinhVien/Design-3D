@@ -12,6 +12,11 @@ body {
   background: linear-gradient(#2b1055, #7597de);
   overflow-x: hidden;
 }
+.div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 header {
   position: absolute;
   top: 0;
@@ -208,6 +213,9 @@ section img#mountains_front {
 @media screen  and (max-width: 767px) {
   .image {
     grid-template-columns: 1fr ;
+  }
+  iframe{
+    width: 600px;
   }
 }
 /* lightbox */
