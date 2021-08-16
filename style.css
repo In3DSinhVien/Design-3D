@@ -116,9 +116,11 @@ section img#mountains_front {
   transform: translateY(100px);
 }
 .sec {
+  padding-top: 100px;
   position: relative;
   background: #1c0522;
   transition: all 0.5s;
+  padding-bottom: 50px;
 }
 .sec h2 {
   position: relative;
@@ -163,10 +165,10 @@ section img#mountains_front {
 }
 @keyframes a {
   from {
-    left: 400px;
+    left: 200px;
   }
   to {
-    left: 800px;
+    left: 1000px;
   }
 } 
 .sec p {
