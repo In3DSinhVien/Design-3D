@@ -340,7 +340,7 @@ footer .content .link-boxes {
   justify-content: space-between;
 }
 footer .content .link-boxes .box {
-  width: calc(100% / 5 - 10px);
+  width: calc(100% / 4 - 10px);
 }
 .content .link-boxes .box .link_name {
   color: #fff;
@@ -361,6 +361,8 @@ footer .content .link-boxes .box {
 .content .link-boxes .box li {
   margin: 6px 0;
   list-style: none;
+  word-break: break-all;
+    width: max-content;
 }
 .content .link-boxes .box li a {
   color: #fff;
